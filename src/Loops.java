@@ -43,7 +43,7 @@ void main() {
     // Inside the for loop, have an if statement that checks if `timer`
     // is less than or equal to 0. If so, set the drivetrain speed to 0
     // If the `timer` is less than or equal to 15, set the speed to one
-    int drivetrainSpeed = 0;
+    int drivetrainSpeed;
     for(int timer = 15; timer >= 0; timer--){
         if(timer <= 0){
             drivetrainSpeed = 0;
